@@ -1,13 +1,13 @@
 <script type="text/javascript">
-	window.onload = function() {setTimeout("display('3','00')", 1000)};
+ 	//var new_time = <%= @levels[session[:level]] %>;
+	var new_time = 120;
+	while (new_time > 0) {
+		countdown();
+	}
+	//setInterval('countdown()', 1000);
 </script>
-
 <div id="content">
-
-<form name="counter">
-<input type="text" size="8" name="timer" id="timer" value="3:00">
-</form> 
-
+<div id="timer"> </div>
 <% form_tag :action => "family",:id => params[:id] do %>
 	<table class="problems"><tr>
 		<% @i = 0 %>

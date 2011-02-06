@@ -6,10 +6,10 @@
     <title><%= @title %></title>
 	<link rel="shortcut icon" HREF="images/bidget.jpg">
   	<%= stylesheet_link_tag "multiplicity" %> 
-	<%= javascript_include_tag "multiplicity" %>
+	<%= javascript_include_tag "countDown" %>
   </head>
   
   <body>
- 	<%= @content_for_layout%>
+	<%= @content_for_layout%>
   </body>
 </html>

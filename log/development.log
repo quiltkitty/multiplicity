@@ -1233,3 +1233,725 @@ Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:47:39) [GET]
 Rendering template within layouts/application
 Rendering block/family
 Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:21:30) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 2094ms (View: 78 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:21:33) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-05 22:21:33) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-05 22:21:36) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:24:21) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:24:21) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family to js (for 127.0.0.1 at 2011-02-05 22:24:21) [GET]
+  Parameters: {"id"=>"countDown"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/countDown.js]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:24:59) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family to js (for 127.0.0.1 at 2011-02-05 22:24:59) [GET]
+  Parameters: {"id"=>"countDown"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/countDown.js]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:26:04) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:26:15) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family to js (for 127.0.0.1 at 2011-02-05 22:26:15) [GET]
+  Parameters: {"id"=>"countDown"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/countDown.js]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:27:12) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family to js (for 127.0.0.1 at 2011-02-05 22:27:12) [GET]
+  Parameters: {"id"=>"countDown"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/countDown.js]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:27:18) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:28:24) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:28:32) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:28:35) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:30:30) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:30:34) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:32:57) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:36:26) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:36:31) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:36:34) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:36:35) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:36:37) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:36:40) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:36:44) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:38:34) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:38:35) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:38:42) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:40:35) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:41:58) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:43:27) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:43:57) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:44:16) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:45:13) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:45:16) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:45:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:47:16) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:47:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 22:47:39) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:47:40) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:53:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:53:59) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:55:39) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:56:12) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:56:26) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:58:19) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:58:36) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:58:59) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 22:59:39) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:01:34) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:01:44) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:03:57) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:05:21) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:05:39) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:06:08) [POST]
+  Parameters: {"authenticity_token"=>"E8T/947ZwH5KaANycWAbUWYtA9ikTcgCZUDZgnCGf3w=", "answers"=>{"5"=>"", "10"=>"", "6"=>"", "12"=>"", "2"=>"", "4"=>"8", "9"=>"", "8"=>"16", "11"=>"", "7"=>"14", "1"=>"2", "3"=>"6"}, "commit"=>"SCORE!", "id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:06:14) [POST]
+  Parameters: {"authenticity_token"=>"E8T/947ZwH5KaANycWAbUWYtA9ikTcgCZUDZgnCGf3w=", "answers"=>{"5"=>"10", "10"=>"20", "6"=>"12", "12"=>"", "2"=>"", "4"=>"8", "9"=>"", "8"=>"16", "11"=>"", "7"=>"14", "1"=>"2", "3"=>"6"}, "commit"=>"SCORE!", "id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:06:48) [GET]
+  Parameters: {"id"=>"block"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:07:12) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:07:24) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:08:29) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:08:46) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:09:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:09:36) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:10:18) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:10:35) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:10:36) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:11:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:11:41) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:14:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:14:39) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:15:10) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:15:29) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:16:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:16:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:16:35) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:17:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:17:18) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:19:02) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:19:27) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:19:45) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:19:46) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:20:06) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:20:08) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:20:25) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:20:58) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:21:15) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:22:06) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:22:29) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:23:04) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:23:07) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:23:17) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:23:33) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:23:34) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:23:47) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:24:37) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:24:54) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:26:58) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:27:15) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:27:21) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:27:45) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:28:03) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:28:06) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-02-05 23:28:07) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-02-05 23:29:13) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
