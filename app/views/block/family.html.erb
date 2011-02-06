@@ -1,0 +1,42 @@
+<script type="text/javascript">
+ 	//var new_time = <%= @levels[session[:level]] %>;
+	var new_time = 120;
+	while (new_time > 0) {
+		countdown();
+	}
+	//setInterval('countdown()', 1000);
+</script>
+<div id="content">
+<div id="timer"> </div>
+<% form_tag :action => "family",:id => params[:id] do %>
+	<table class="problems"><tr>
+		<% @i = 0 %>
+		<% @rand_factors.each do |f| %>
+			<% if @i % 4 == 0 %>
+				</tr><tr>
+			<% end %>
+			<td>
+				<%= f.to_s %><BR>
+				X&nbsp;<%= params[:id] %><BR>
+				_______<BR>
+				<% 
+				@aclass = "answer"
+				if @scores
+					if @scores[f]
+						@aclass = @scores[f]
+					end
+				end
+				%>
+				<%= text_field_tag "answers[#{f}]",@answers[f].to_s,:autocomplete => :off,:size => 4,:class => @aclass %>
+			</td>
+			<% @i = @i.next %>
+		<% end %>
+	</tr></table>
+	<div class="clear"> </div>
+	<div style="text-align: center;">
+		<%= submit_tag "SCORE!",:class => "score" %>
+		<%= submit_tag "New Game",:class => "score" %><BR>
+		<%= link_to "Return to Main Page",:action => "index" %><BR>
+	</div>
+<% end %>
+</div>

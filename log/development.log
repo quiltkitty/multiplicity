@@ -1,0 +1,1235 @@
+/!\ FAILSAFE /!\  2011-01-28 19:27:23 -0600
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    <internal:lib/rubygems/custom_require>:29:in `require'
+    <internal:lib/rubygems/custom_require>:29:in `require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `block in require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `block in require_library_or_gem'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Ruby192/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+/!\ FAILSAFE /!\  2011-01-28 19:27:26 -0600
+  Status: 500 Internal Server Error
+  no such file to load -- sqlite3
+    <internal:lib/rubygems/custom_require>:29:in `require'
+    <internal:lib/rubygems/custom_require>:29:in `require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `block in require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/dependencies.rb:156:in `require'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:7:in `block in require_library_or_gem'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-2.3.8/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `block (2 levels) in checkout'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `block in checkout'
+    C:/Ruby192/lib/ruby/1.9.1/monitor.rb:201:in `mon_synchronize'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:9:in `cache'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/query_cache.rb:28:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/activerecord-2.3.8/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/string_coercion.rb:25:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/head.rb:9:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/methodoverride.rb:24:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/params_parser.rb:15:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/session/cookie_store.rb:99:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/failsafe.rb:26:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `block in call'
+    <internal:prelude>:10:in `synchronize'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/lock.rb:11:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:114:in `block in call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/reloader.rb:34:in `run'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-2.3.8/lib/action_controller/dispatcher.rb:108:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/static.rb:31:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:47:in `block in call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `each'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/urlmap.rb:41:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rails-2.3.8/lib/rails/rack/log_tailer.rb:17:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/content_length.rb:13:in `call'
+    C:/Ruby192/lib/ruby/gems/1.9.1/gems/rack-1.1.0/lib/rack/handler/webrick.rb:48:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:37:10) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 47ms (View: 47 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:37:13) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 1234ms (View: 1234 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:37:32) [POST]
+  Parameters: {"authenticity_token"=>"FdpU/SPXnuL+Y69T6gZwZMdzKvGw5kO0TYTkkoBmSdM=", "answers"=>{"4"=>"8", "5"=>"10", "1"=>"2", "7"=>"14", "9"=>"2", "10"=>"3", "12"=>"3", "11"=>"3", "6"=>"4", "8"=>"5", "3"=>"5", "2"=>"5"}, "commit"=>"SCORE!", "id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:37:47) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:38:59) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:46:39) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:46:39) [GET]
+
+ActionController::RoutingError (No route matches "/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:46:39) [GET]
+
+ActionController::RoutingError (No route matches "/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:46:39) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:46:39) [GET]
+
+ActionController::RoutingError (No route matches "/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:46:42) [GET]
+
+ActionController::RoutingError (No route matches "/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:46:42) [GET]
+
+ActionController::RoutingError (No route matches "/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:47:16) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:47:19) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:48:48) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:48:53) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 1234ms (View: 1219 | 200 OK [http://localhost/block/family/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:48:55) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 19:48:58) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:49:13) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"10"=>"30", "11"=>"33", "12"=>"43", "9"=>"27", "8"=>"25", "4"=>"", "2"=>"", "7"=>"", "5"=>"", "3"=>"", "6"=>"", "1"=>""}, "commit"=>"SCORE!", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:49:22) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"10"=>"30", "11"=>"33", "12"=>"43", "9"=>"27", "8"=>"25", "4"=>"12", "2"=>"6", "7"=>"", "5"=>"", "3"=>"", "6"=>"", "1"=>""}, "commit"=>"SCORE!", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:49:26) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"10"=>"30", "11"=>"33", "12"=>"43", "9"=>"27", "8"=>"25", "4"=>"12", "2"=>"6", "7"=>"", "5"=>"", "3"=>"", "6"=>"", "1"=>""}, "commit"=>"New Game", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:49:30) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:49:52) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/1]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:51:34) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"2"=>"2", "10"=>"10", "8"=>"8", "7"=>"7", "9"=>"9", "1"=>"1", "3"=>"3", "6"=>"6", "12"=>"12", "11"=>"11", "4"=>"4", "5"=>"5"}, "commit"=>"SCORE!", "id"=>"1"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/1]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:51:36) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"2"=>"2", "10"=>"10", "8"=>"8", "7"=>"7", "9"=>"9", "1"=>"1", "3"=>"3", "6"=>"6", "12"=>"12", "11"=>"11", "4"=>"4", "5"=>"5"}, "commit"=>"New Game", "id"=>"1"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/1]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:51:40) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:51:41) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:55:00) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"12"=>"24", "9"=>"18", "5"=>"10", "1"=>"2", "8"=>"16", "7"=>"14", "11"=>"22", "4"=>"8", "3"=>"6", "2"=>"4", "10"=>"20", "6"=>"12"}, "commit"=>"SCORE!", "id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:55:05) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:55:06) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 19:56:25) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:56:27) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:58:40) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"10"=>"30", "5"=>"15", "4"=>"12", "1"=>"3", "11"=>"33", "8"=>"32", "7"=>"21", "6"=>"18", "9"=>"71", "3"=>"9", "12"=>"48", "2"=>"6"}, "commit"=>"New Game", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 19:58:50) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"10"=>"", "5"=>"", "4"=>"", "1"=>"", "11"=>"", "8"=>"", "7"=>"", "6"=>"", "9"=>"", "3"=>"", "12"=>"", "2"=>""}, "commit"=>"New Game", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:01:53) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"2"=>"6", "12"=>"96", "3"=>"9", "6"=>"18", "8"=>"32", "5"=>"15", "7"=>"21", "4"=>"12", "11"=>"33", "10"=>"30", "9"=>"27", "1"=>"3"}, "commit"=>"SCORE!", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:02:16) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"2"=>"6", "12"=>"", "3"=>"9", "6"=>"18", "8"=>"24", "5"=>"15", "7"=>"21", "4"=>"12", "11"=>"33", "10"=>"30", "9"=>"27", "1"=>"3"}, "commit"=>"SCORE!", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:02:39) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"2"=>"6", "12"=>"36", "3"=>"9", "6"=>"18", "8"=>"24", "5"=>"15", "7"=>"21", "4"=>"12", "11"=>"33", "10"=>"30", "9"=>"27", "1"=>"3"}, "commit"=>"SCORE!", "id"=>"3"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/3]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:02:42) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:02:43) [GET]
+  Parameters: {"id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:03:45) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"12"=>"", "4"=>"", "6"=>"", "3"=>"", "9"=>"", "1"=>"", "8"=>"", "5"=>"", "7"=>"", "10"=>"", "2"=>"", "11"=>""}, "commit"=>"New Game", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:03:53) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"11"=>"", "9"=>"", "12"=>"", "5"=>"", "7"=>"", "1"=>"", "8"=>"", "6"=>"", "4"=>"", "3"=>"", "2"=>"", "10"=>""}, "commit"=>"New Game", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:03:59) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"9"=>"", "7"=>"", "8"=>"", "12"=>"", "5"=>"", "11"=>"", "1"=>"", "3"=>"", "4"=>"", "2"=>"", "6"=>"", "10"=>""}, "commit"=>"New Game", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:05:58) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"1"=>"4", "8"=>"32", "9"=>"36", "11"=>"44", "6"=>"20", "3"=>"12", "10"=>"40", "12"=>"", "4"=>"16", "7"=>"27", "2"=>"8", "5"=>"20"}, "commit"=>"SCORE!", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:06:19) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"1"=>"4", "8"=>"32", "9"=>"36", "11"=>"44", "6"=>"24", "3"=>"12", "10"=>"40", "12"=>"", "4"=>"16", "7"=>"28", "2"=>"8", "5"=>"20"}, "commit"=>"SCORE!", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:06:59) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"1"=>"4", "8"=>"32", "9"=>"36", "11"=>"44", "6"=>"24", "3"=>"12", "10"=>"40", "12"=>"i don't know.", "4"=>"16", "7"=>"28", "2"=>"8", "5"=>"20"}, "commit"=>"SCORE!", "id"=>"4"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/4]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:07:05) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:07:08) [GET]
+  Parameters: {"id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:09:28) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"8"=>"40", "5"=>"25", "2"=>"10", "7"=>"35", "12"=>"60", "3"=>"15", "11"=>"55", "1"=>"5", "9"=>"45", "4"=>"20", "6"=>"30", "10"=>"50"}, "commit"=>"SCORE!", "id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:09:30) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"8"=>"40", "5"=>"25", "2"=>"10", "7"=>"35", "12"=>"60", "3"=>"15", "11"=>"55", "1"=>"5", "9"=>"45", "4"=>"20", "6"=>"30", "10"=>"50"}, "commit"=>"New Game", "id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:11:03) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"25", "3"=>"15", "12"=>"60", "7"=>"35", "11"=>"55", "6"=>"30", "1"=>"5", "10"=>"50", "4"=>"20", "8"=>"40", "9"=>"43", "2"=>"25"}, "commit"=>"SCORE!", "id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:11:18) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"25", "3"=>"15", "12"=>"60", "7"=>"35", "11"=>"55", "6"=>"30", "1"=>"5", "10"=>"50", "4"=>"20", "8"=>"40", "9"=>"40", "2"=>"10"}, "commit"=>"SCORE!", "id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:11:26) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"25", "3"=>"15", "12"=>"60", "7"=>"35", "11"=>"55", "6"=>"30", "1"=>"5", "10"=>"50", "4"=>"20", "8"=>"40", "9"=>"45", "2"=>"10"}, "commit"=>"SCORE!", "id"=>"5"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/5]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:11:28) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:11:30) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/6]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:11:33) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:11:43) [GET]
+  Parameters: {"id"=>"6"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/6]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:12:05) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:12:07) [GET]
+  Parameters: {"id"=>"7"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/7]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:12:11) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:12:15) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:12:17) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:12:19) [GET]
+  Parameters: {"id"=>"9"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/9]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:12:21) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:12:22) [GET]
+  Parameters: {"id"=>"10"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/10]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:13:27) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"50", "4"=>"40", "9"=>"90", "10"=>"100", "11"=>"110", "2"=>"20", "8"=>"80", "7"=>"70", "6"=>"60", "1"=>"10", "3"=>"30", "12"=>"120"}, "commit"=>"SCORE!", "id"=>"10"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/10]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:13:30) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:13:32) [GET]
+  Parameters: {"id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:14:45) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"11"=>"111", "7"=>"77", "9"=>"99", "10"=>"110", "2"=>"22", "4"=>"44", "6"=>"66", "5"=>"55", "8"=>"88", "12"=>"", "3"=>"33", "1"=>"11"}, "commit"=>"SCORE!", "id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:15:57) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"11"=>"", "7"=>"77", "9"=>"99", "10"=>"110", "2"=>"22", "4"=>"44", "6"=>"66", "5"=>"55", "8"=>"88", "12"=>"", "3"=>"33", "1"=>"11"}, "commit"=>"New Game", "id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:19:29) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"55", "7"=>"77", "10"=>"110", "8"=>"88", "11"=>"121", "2"=>"22", "3"=>"33", "12"=>"131", "4"=>"44", "9"=>"99", "6"=>"66", "1"=>"11"}, "commit"=>"SCORE!", "id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:19:58) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"55", "7"=>"77", "10"=>"110", "8"=>"88", "11"=>"121", "2"=>"22", "3"=>"33", "12"=>"141", "4"=>"44", "9"=>"99", "6"=>"66", "1"=>"11"}, "commit"=>"SCORE!", "id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:20:54) [POST]
+  Parameters: {"authenticity_token"=>"FLgmWlD1PmhrZgVTmJ1MImIQHf2/aEROhAnlxXJ5OlU=", "answers"=>{"5"=>"55", "7"=>"77", "10"=>"110", "8"=>"88", "11"=>"121", "2"=>"22", "3"=>"33", "12"=>"78784522578/878//7587774/8//257777777777777777777777777777777777777777988987485975888488/77448/788887878", "4"=>"44", "9"=>"99", "6"=>"66", "1"=>"11"}, "commit"=>"SCORE!", "id"=>"11"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/11]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:21:09) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:24:13) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 47ms (View: 47 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:27:21) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 1219ms (View: 1219 | 200 OK [http://localhost/block/family/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 20:27:25) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:29:43) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:30:04) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:31:14) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:31:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:35:50) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:36:20) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:36:35) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:37:14) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:37:28) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:38:25) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:38:52) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:39:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:39:19) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:40:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:40:49) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:41:48) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:46:19) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:46:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:46:42) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 172ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:48:05) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:50:40) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:51:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 20:52:15) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:53:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 172ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:56:30) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 20:57:03) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:57:05) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:57:29) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 172ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:57:48) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:58:15) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 172ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 20:58:43) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 47ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:00:18) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:02:21) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:03:26) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:06:34) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:06:52) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 172ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:09:47) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:10:44) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:10:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:11:41) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:14:00) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:14:01) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:14:11) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:14:11) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:15:12) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:15:13) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:15:14) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 21:15:16) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:15:17) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:15:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:16:37) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:21:40) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:26:56) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]) on line #2 of app/views/block/family.html.erb:
+1: <script type="text/javascript">
+2: 	var current_time = <%= @level[session[:level]] %>;
+3: 	document.getElementById.timer.innerHTML = <%= @level[session[:level]] %>;
+4: </script>
+5: <div id="content">
+
+    app/views/block/family.html.erb:2
+    <internal:prelude>:10:in `synchronize'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (15.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:27:06) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]) on line #2 of app/views/block/family.html.erb:
+1: <script type="text/javascript">
+2: 	document.getElementById.timer.innerHTML = <%= @level[session[:level]] %>;
+3: </script>
+4: <div id="content">
+5: <div id="timer"> </div>
+
+    app/views/block/family.html.erb:2
+    <internal:prelude>:10:in `synchronize'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+    C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendered rescues/_trace (15.6ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:27:18) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:27:35) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:35:16) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:35:18) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:36:14) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:37:36) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:38:07) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:39:12) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 188ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:42:16) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 16 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:43:07) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 188ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:43:08) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:43:19) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 21:44:17) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 1672ms (View: 16 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:44:20) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:44:20) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:44:31) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 21:47:22) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 1203ms (View: 31 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:47:24) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 31ms (View: 31 | 200 OK [http://localhost/block/family/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:47:24) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-01-28 21:47:27) [GET]
+
+ActionController::RoutingError (No route matches "/block/family/images/bidget.jpg" with {:method=>:get}):
+  <internal:prelude>:10:in `synchronize'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  C:/Ruby192/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+Rendering rescues/layout (not_found)
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:47:34) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 16ms (View: 0 | 200 OK [http://localhost/block/family/2]
+
+
+Processing BlockController#index (for 127.0.0.1 at 2011-01-28 21:47:38) [GET]
+Rendering template within layouts/application
+Rendering block/index
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block]
+
+
+Processing BlockController#family (for 127.0.0.1 at 2011-01-28 21:47:39) [GET]
+  Parameters: {"id"=>"8"}
+Rendering template within layouts/application
+Rendering block/family
+Completed in 0ms (View: 0 | 200 OK [http://localhost/block/family/8]

@@ -1,0 +1,72 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 100%;
+	position:relative;
+	top: 0;
+	left 0;
+}
+
+#content {
+	width: 100%;
+}
+
+table.skills {
+	width: 90%;
+	margin: 40px;
+}
+
+table.skills td {
+	width: 16%;
+	font-size: 18pt;
+}
+
+table.problems {
+	width: 80%;
+	margin: 40px 10px 40px 10px;
+	float: left;
+}
+
+table.problems td {
+	width: 25%;
+	text-align: right;
+	font-size: 24pt;
+	padding-bottom: 20px;
+}
+
+input.answer, input.correct, input.incorrect {
+	font-size: 24pt;
+}
+
+input.correct {
+	background-color: #00FF00;
+}
+
+input.incorrect {
+	background-color: #FF0000;
+}
+
+input.score {
+	font-size: 20pt;
+}
+
+.clear {
+	clear: both;
+}
+
+#timer {
+	float: left;
+	border: 1px solid black;
+	background-color: #0033CC;
+	color: #FFFFFF;
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	width: 10%;
+}
